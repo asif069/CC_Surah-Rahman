@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/notlayout"
+        android:background="@drawable/notofication">
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:src="@drawable/logo"
+
+            android:id="@+id/logo" />
+        <TextView
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo"
+            android:id="@+id/nottitle"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+            android:text="hello"
+            android:maxLines="1"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:layout_toEndOf="@+id/logo"
+            android:layout_marginStart="@dimen/_5sdp" />
+        <TextView
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:maxLines="1"
+            android:text="hello"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/logo"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:id="@+id/notname"
+            android:maxWidth="@dimen/_155sdp"
+            android:fontFamily="sans-serif-light"
+            android:layout_toEndOf="@+id/logo"
+            android:layout_marginStart="@dimen/_5sdp" />
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+            android:layout_toRightOf="@+id/nottitle"
+            android:id="@+id/pause"
+
+            android:src="@drawable/pause"
+
+            android:layout_toEndOf="@+id/nottitle" />
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+            android:id="@+id/cancel_btn"
+            android:layout_toRightOf="@+id/pause"
+            android:src="@drawable/stop"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/pause"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:contentDescription="TODO" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Surah Rehman</string>
+    <string name="saved_high_score_key" />
+    <string name="vedio">vedio</string>
+    <string name="listening">Listening</string>
+    <string name="start_reading">Start Reading</string>
+
+    <string name="_00_00">0:00</string>
+    <string name="youtube_vedio">youtube vedio</string>
+    <string name="todo">TODO</string>
+    <string name="song_name">Song name</string>
+    <string name="artistname">Artistname</string>
+    <string name="duration">duration</string>
+    <string name="channel_name">paying</string>
+    <string name="channel_description">surah e yaseen</string>
+    <string name="recite">RECITE</string>
+    <string name="listen_surah">LISTEN SURAH</string>
+    <string name="recent_listens">RECENT LISTENS</string>
+    <string name="video_surah">VIDEO SURAH</string>
+    <string name="download">Downloading:</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="privacy_policy_details">
+     <b>Our Privacy Policy:</b>
+    \n\n1: " "We do not Collect any Data.\n2: " "All permissions are only for user\'s benefit\n\n
+    <b>Permissions:</b>
+    \n\n1: " "Foreground Service.
+    \n2: " "Internet.
+    \n4: " "ACCESS_NETWORK_STATE
+        \n5: " " WRITE_EXTERNAL_STORAGE
+        \n6: " " READ_EXTERNAL_STORAGE
+        \n7: " " MEDIA_CONTENT_CONTROL
+        \n8: " " READ_PHONE_STATE
+    \n\nPlease accept to proceed further.\nThanks For Installing this Application.\n
+
+</string>
+    <string name="accept">Accept</string>
+</resources>
